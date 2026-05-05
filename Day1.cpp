@@ -1,3 +1,4 @@
+// check that the triangle is equa;itral or not
 #include <iostream>
 using namespace std;
 
@@ -11,4 +12,3 @@ int main()
     cout << isEquilateral << endl;
     return 0;
 }
-4
