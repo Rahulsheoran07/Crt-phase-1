@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void applyDiscount(double &billAmount) {
+void applyDiscount(double &billAmount)
+{
     const double discountRate = 0.10; // 10%
     billAmount -= billAmount * discountRate;
 }
 
-int main() {
+int main()
+{
     double billAmount;
     cout << "Enter original bill amount: ";
     cin >> billAmount;
